@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta 
+        name="description" 
+        content="Página estilo Wikipedia moderna sobre a linguagem de programação Java, com foco em HTML semântico e acessibilidade."
+    >
+
+    <title>Java - Wikipédia Moderna</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topo" role="banner">
+        <div class="logo-area">
+            <h1>Wiki Moderna</h1>
+            <p>Conhecimento organizado de forma acessível</p>
+        </div>
+
+        <nav class="menu-topo" aria-label="Menu principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#exemplo">Exemplo</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="layout">
+
+        <aside class="sidebar" aria-label="Navegação lateral">
+            <h2>Conteúdo</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Java</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#uso">Onde é usado</a></li>
+                    <li><a href="#versoes">Versões</a></li>
+                    <li><a href="#exemplo">Exemplo de código</a></li>
+                    <li><a href="#acessibilidade">Acessibilidade</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="conteudo" id="inicio" role="main">
+
+            <article>
+
+                <header class="cabecalho-artigo">
+                    <h1>Java</h1>
+
+                    <p class="subtitulo">
+                        Linguagem de programação orientada a objetos, multiplataforma e amplamente utilizada no desenvolvimento de sistemas.
+                    </p>
+                </header>
+
+                <figure>
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" 
+                        alt="Logotipo da linguagem de programação Java"
+                        class="imagem-java"
+                    >
+
+                    <figcaption>
+                        Logotipo da linguagem Java.
+                    </figcaption>
+                </figure>
+
+                <section aria-labelledby="introducao">
+                    <h2 id="introducao">Introdução</h2>
+
+                    <p>
+                        <strong>Java</strong> é uma linguagem de programação criada com o objetivo de ser simples,
+                        segura, robusta e capaz de funcionar em diferentes sistemas operacionais.
+                    </p>
+
+                    <p>
+                        Uma das frases mais conhecidas associadas ao Java é:
+                        <q>Write once, run anywhere</q>, que significa
+                        <em>escreva uma vez, execute em qualquer lugar</em>.
+                    </p>
+
+                    <p>
+                        Isso acontece porque os programas Java são executados por meio da
+                        <abbr title="Java Virtual Machine">JVM</abbr>, uma máquina virtual responsável por interpretar
+                        e executar o código compilado.
+                    </p>
+                </section>
+
+                <section id="historia" aria-labelledby="titulo-historia">
+                    <h2 id="titulo-historia">História</h2>
+
+                    <p>
+                        A linguagem Java foi desenvolvida originalmente pela Sun Microsystems na década de 1990.
+                        Seu principal objetivo era permitir a criação de aplicações portáveis, ou seja,
+                        capazes de funcionar em diferentes plataformas.
+                    </p>
+
+                    <p>
+                        Com o passar dos anos, Java se tornou uma das linguagens mais utilizadas no mundo,
+                        especialmente em sistemas corporativos, aplicações web, sistemas bancários,
+                        aplicações Android e soluções de grande escala.
+                    </p>
+
+                    <blockquote cite="https://www.oracle.com/java/">
+                        <p>
+                            Java é uma tecnologia usada em milhões de aplicações ao redor do mundo,
+                            desde sistemas empresariais até dispositivos móveis.
+                        </p>
+                    </blockquote>
+                </section>
+
+                <section id="caracteristicas" aria-labelledby="titulo-caracteristicas">
+                    <h2 id="titulo-caracteristicas">Características principais</h2>
+
+                    <p>
+                        Java possui características que a tornam uma linguagem muito utilizada
+                        no mercado de desenvolvimento de software.
+                    </p>
+
+                    <ul>
+                        <li>Orientação a objetos;</li>
+                        <li>Portabilidade entre sistemas operacionais;</li>
+                        <li>Gerenciamento automático de memória;</li>
+                        <li>Grande comunidade de desenvolvedores;</li>
+                        <li>Amplo uso em aplicações corporativas;</li>
+                        <li>Ecossistema robusto de bibliotecas e frameworks.</li>
+                    </ul>
+                </section>
+
+                <section id="uso" aria-labelledby="titulo-uso">
+                    <h2 id="titulo-uso">Onde Java é usado?</h2>
+
+                    <p>
+                        Java é uma linguagem bastante versátil e pode ser utilizada em diferentes tipos de projetos.
+                    </p>
+
+                    <ol>
+                        <li>Sistemas web;</li>
+                        <li>Aplicações desktop;</li>
+                        <li>Aplicativos Android;</li>
+                        <li>Sistemas bancários;</li>
+                        <li>APIs e microsserviços;</li>
+                        <li>Sistemas acadêmicos e empresariais.</li>
+                    </ol>
+                </section>
+
+                <section id="versoes" aria-labelledby="titulo-versoes">
+                    <h2 id="titulo-versoes">Algumas versões do Java</h2>
+
+                    <p>
+                        Ao longo dos anos, a linguagem Java recebeu diversas versões, trazendo melhorias
+                        de desempenho, segurança e novos recursos para os desenvolvedores.
+                    </p>
+
+                    <table>
+                        <caption>Exemplos de versões importantes do Java</caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Versão</th>
+                                <th scope="col">Ano aproximado</th>
+                                <th scope="col">Destaque</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Java 8</td>
+                                <td>2014</td>
+                                <td>Expressões lambda e Stream API</td>
+                            </tr>
+
+                            <tr>
+                                <td>Java 11</td>
+                                <td>2018</td>
+                                <td>Versão LTS bastante usada em empresas</td>
+                            </tr>
+
+                            <tr>
+                                <td>Java 17</td>
+                                <td>2021</td>
+                                <td>Versão LTS moderna</td>
+                            </tr>
+
+                            <tr>
+                                <td>Java 21</td>
+                                <td>2023</td>
+                                <td>Recursos modernos e versão LTS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="exemplo" aria-labelledby="titulo-exemplo">
+                    <h2 id="titulo-exemplo">Exemplo básico de código Java</h2>
+
+                    <p>
+                        Abaixo está um exemplo simples de programa em Java que imprime uma mensagem na tela.
+                    </p>
+
+                    <pre>
+<code>
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+</code>
+                    </pre>
+                </section>
+
+                <section id="acessibilidade" aria-labelledby="titulo-acessibilidade">
+                    <h2 id="titulo-acessibilidade">Recursos de acessibilidade aplicados</h2>
+
+                    <p>
+                        Nesta página foram aplicadas práticas básicas de acessibilidade e semântica,
+                        como o uso correto de tags estruturais e descrições alternativas.
+                    </p>
+
+                    <ul>
+                        <li>Uso de <code>header</code>, <code>nav</code>, <code>main</code>, <code>article</code>, <code>section</code>, <code>aside</code> e <code>footer</code>;</li>
+                        <li>Uso de textos alternativos em imagens com o atributo <code>alt</code>;</li>
+                        <li>Uso de <code>aria-label</code> em áreas de navegação;</li>
+                        <li>Uso de hierarquia correta de títulos;</li>
+                        <li>Uso de tabela com <code>caption</code> e <code>scope</code>;</li>
+                        <li>Contraste visual adequado entre texto e fundo.</li>
+                    </ul>
+                </section>
+
+                <section id="referencias" aria-labelledby="titulo-referencias">
+                    <h2 id="titulo-referencias">Referências</h2>
+
+                    <p>
+                        Para saber mais sobre Java, consulte as fontes abaixo:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer">
+                                Site oficial do Java - Oracle
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer">
+                                Documentação oficial do Java
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener noreferrer">
+                                MDN Web Docs
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+
+        </main>
+
+        <aside class="resumo" aria-label="Resumo do artigo">
+            <h2>Resumo</h2>
+
+            <div class="card-resumo">
+                <h3>Java</h3>
+
+                <p><strong>Tipo:</strong> Linguagem de programação</p>
+                <p><strong>Paradigma:</strong> Orientação a objetos</p>
+                <p><strong>Uso:</strong> Web, desktop, mobile e sistemas corporativos</p>
+                <p><strong>Execução:</strong> JVM</p>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer class="rodape" role="contentinfo">
+        <p>
+            Projeto desenvolvido para o desafio
+            <strong>Recriando o Wikipedia com Layout Moderno</strong>.
+        </p>
+
+        <p>
+            Desenvolvido por Matheus Franchin - Curso HTML DIO.
+        </p>
+    </footer>
+
+</body>
+</html>
